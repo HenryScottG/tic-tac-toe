@@ -1,0 +1,19 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+}
+section {
+    text-align: center;
+}
+.squares{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 400px;
+    margin: 30px auto;
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 50px;
+    border: 1px solid black;
+}
